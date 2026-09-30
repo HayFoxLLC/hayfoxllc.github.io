@@ -525,13 +525,18 @@ p {
   .contact,
   .work,
   .careers {
-    min-height: 100svh;
+    min-height: 100vh;
     scroll-margin-top: 40px;
     background-image: none;
   }
 
+  .contact {
+    height: 120vh;
+  }
+
   .row-around {
     padding: 12px;
+    align-content: start;
   }
 
   .row-center {
